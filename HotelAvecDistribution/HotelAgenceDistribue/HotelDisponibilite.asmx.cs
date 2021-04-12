@@ -20,8 +20,7 @@ namespace HotelAgenceDistribue
     {
         private IFormatProvider culture = new CultureInfo("en-US", false);
 
-        public static string path = "C:\\Users\\beaug\\Desktop\\M1S2\\ArchiDistrib\\assets\\";
-
+        public static string path = "C:\\Users\\beaug\\Desktop\\M1S2\\ArchiDistrib\\GitTPSoap\\TPServiceWebSOAP\\assets\\";
         public Hotel hotelPasCher = new Hotel("IbisBudget","230 Avenue des roses","Montpellier","France",2,35);
 
         public Agence agenceChoisis = new Agence();
